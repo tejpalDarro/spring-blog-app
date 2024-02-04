@@ -8,4 +8,10 @@ public class CommentDto {
     private String name;
     private String email;
     private String body;
+
+    @Data
+    public static class LoginDto {
+        private String usernameOrEmail;
+        private String password;
+    }
 }
